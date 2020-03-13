@@ -1,0 +1,95 @@
+body {
+  background-color: #FF886E;
+  font-family: 'Inter', sans-serif;
+  color: #737d84;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #F67575;
+}
+
+h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #235952;
+}
+
+a {
+  color: #1eb2a6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #F67575
+}
+
+p {
+  margin: 20px 0px 30px 0px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 25px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-green {
+  background-color: #1eb2a6;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 40px;
+}
+
+.btn-green:hover {
+  background-color: #F67575;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+}
